@@ -1,0 +1,1 @@
+mysqldump -u CognitiveTest -pCognitiveTest CognitiveTest > dump.sql

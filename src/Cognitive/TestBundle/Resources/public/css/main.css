@@ -1,0 +1,57 @@
+/*
+    Document   : cognitive.css
+    Created on : 30.10.2013, 1:35:25
+    Author     : ship
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body {
+    font-family: sans-serif;
+    font-size: small;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+.records_list {
+
+}
+
+table.records_list {
+    border: 2px solid green;
+    border-collapse: collapse;
+    padding: 5px;
+    margin: 5px;
+}
+
+td.records_list {
+    color: midnightblue;
+    border: 1px solid green;
+    padding: 2px;
+    margin: 2px;
+}
+
+th.records_list {
+    background-color:green;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}
+
+td.action {
+    text-align: center;
+    width:120px;
+}
+
+td.id {
+    font-size: smaller;
+    font-weight: bold;
+    width:10px;
+    text-align: right
+}
+
+td.data {
+    font-size: larger;
+}

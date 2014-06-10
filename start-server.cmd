@@ -1,0 +1,1 @@
+start php app\console server:run localhost:10888

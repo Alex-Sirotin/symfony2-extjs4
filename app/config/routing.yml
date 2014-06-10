@@ -1,0 +1,4 @@
+cognitive_test:
+    resource: "@CognitiveTestBundle/Resources/config/routing.yml"
+    prefix:   /
+

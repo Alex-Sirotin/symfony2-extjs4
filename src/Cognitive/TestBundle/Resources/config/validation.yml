@@ -1,0 +1,15 @@
+Cognitive\TestBundle\Entity\City:
+    properties:
+        name:
+            - NotBlank: ~
+
+Cognitive\TestBundle\Entity\Education:
+    properties:
+        name:
+            - NotBlank: ~
+
+Cognitive\TestBundle\Entity\People:
+    properties:
+        name:
+            - NotBlank: ~
+            

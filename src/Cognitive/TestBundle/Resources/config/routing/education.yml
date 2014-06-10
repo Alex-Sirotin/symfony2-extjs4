@@ -1,0 +1,20 @@
+education:
+    pattern:  /
+    defaults: { _controller: "CognitiveTestBundle:Education:index" }
+
+education_create:
+    pattern:  /create
+    defaults: { _controller: "CognitiveTestBundle:Education:create" }
+
+education_list:
+    pattern:  /read
+    defaults: { _controller: "CognitiveTestBundle:Education:read" }
+
+education_update:
+    pattern:  /update
+    defaults: { _controller: "CognitiveTestBundle:Education:update" }
+
+education_delete:
+    pattern:  /delete
+    defaults: { _controller: "CognitiveTestBundle:Education:delete" }
+

@@ -1,0 +1,19 @@
+city:
+    pattern:  /
+    defaults: { _controller: "CognitiveTestBundle:City:index" }
+
+city_create:
+    pattern:  /create
+    defaults: { _controller: "CognitiveTestBundle:City:create", _format: json }
+
+city_list:
+    pattern:  /read
+    defaults: { _controller: "CognitiveTestBundle:City:read", _format: json }
+
+city_update:
+    pattern:  /update
+    defaults: { _controller: "CognitiveTestBundle:City:update", _format: json }
+
+city_delete:
+    pattern:  /delete
+    defaults: { _controller: "CognitiveTestBundle:City:delete", _format: json }

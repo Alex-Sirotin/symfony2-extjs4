@@ -1,0 +1,1 @@
+php app/console doctrine:schema:create --dump-sql > dump_ddl.sql

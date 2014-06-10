@@ -1,0 +1,7 @@
+parameters:
+#    cognitive_test.example.class: Cognitive\TestBundle\Example
+
+services:
+#    cognitive_test.example:
+#        class: %cognitive_test.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

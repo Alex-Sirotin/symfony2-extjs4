@@ -1,0 +1,15 @@
+cognitive_test_homepage:
+    pattern:  /
+    defaults: { _controller: CognitiveTestBundle:Default:index }
+
+cognitive_test_education:
+    resource: "@CognitiveTestBundle/Resources/config/routing/education.yml"
+    prefix:   /education
+
+cognitive_test_city:
+    resource: "@CognitiveTestBundle/Resources/config/routing/city.yml"
+    prefix:   /city
+
+cognitive_test_people:
+    resource: "@CognitiveTestBundle/Resources/config/routing/people.yml"
+    prefix:   /people
